@@ -43,6 +43,6 @@ describe('Count recipient Notifications', () => {
     });
 
     expect(count).toEqual(2);
-    expect(count2).toEqual(1);
+    expect(count2.count).toEqual(1);
   });
 });
