@@ -1,6 +1,5 @@
 import { Notification } from '@application/entities/notification';
 import { NotificationsRepository } from '@application/repositories/notifications-repository';
-import { isTemplateExpression } from 'typescript';
 
 export class InMemoryNotificationsRepository
   implements NotificationsRepository
