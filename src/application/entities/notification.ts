@@ -26,11 +26,11 @@ export class Notification {
     return this._id;
   }
 
-  public set recepientId(recepientId: string) {
-    this.props.recipientId = recepientId;
+  public set recipientId(recipientId: string) {
+    this.props.recipientId = recipientId;
   }
 
-  public get recepientId(): string {
+  public get recipientId(): string {
     return this.props.recipientId;
   }
 
